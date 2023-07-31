@@ -10,7 +10,7 @@ async function main() {
   };
   const client = await context({
     ...common,
-    entryPoints: ["src/client/main.tsx"],
+    entryPoints: ["src/client.tsx"],
     platform: "browser",
     outfile: "build/client.js",
   });
